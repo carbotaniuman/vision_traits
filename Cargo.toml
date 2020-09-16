@@ -1,0 +1,11 @@
+[package]
+name = "vision_traits"
+version = "0.1.0"
+authors = ["carbotaniuman"]
+edition = "2018"
+
+[dependencies]
+vision_traits_derive = { path = "vision_traits_derive" }
+json = "0.12.4"
+paste = "0.1.16"
+thiserror = "1.0.20"

@@ -1,0 +1,16 @@
+[package]
+name = "vision_traits_derive"
+version = "0.1.0"
+authors = ["carbotaniuman"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1.0"
+proc-macro2 = "1.0"
+
+[dependencies.syn]
+version = "1.0.30"
+features = ["full"]
